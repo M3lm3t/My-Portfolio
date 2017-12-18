@@ -1,0 +1,167 @@
+﻿@-webkit-keyframes blink {
+    25% {
+        border-color: #e6e6e6;
+    }
+}
+
+.boxhead a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+body {
+    background: #e6e6e6 !important;
+
+}
+#banner {
+    background-color: gray;
+    position:relative;
+    left:-50%;
+    transform: rotate(-45deg);
+}
+#bannerText {
+ 
+    display: block;
+    font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    padding: 0.2% ;
+    text-align:center;
+
+  
+    font-size: 300%; 
+}
+#wholePage {
+    height: 60vw;
+}
+
+
+.container22 {
+    display: table;
+    min-width: 100%;
+    min-height: 70%;
+
+}
+
+.inner-container22 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#nameTop {
+    align-items: center;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 20px;
+    text-decoration: none;
+}
+.typewrite {
+    color: #404040;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+   
+}
+
+
+#paragraphTop {
+    text-align: center;
+    font-size: 200%;
+    padding: 20px;
+}
+
+#conFlow {
+    display: table;
+    min-width: 80%;
+    min-height: 70%;
+}
+#myCarousel {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p {
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 55px;
+    font-size: 160%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 450% !important;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+#education {
+    padding: 15px;
+    font-size: 170%;
+
+}
+h3 {
+    padding: 15px;
+    font-size: 170% !important;
+}
+.fa {
+    text-decoration: none;
+    color: black;
+
+    position:center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#image {
+    width: 100%;
+    height: 30%;
+}
+#white {
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+#map {
+    width: 82%;
+    height: 30%;
+    position: static;
+    left: 9%;
+    top: 0%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: center;
+    padding-top: 0.01%;
+    padding-bottom: 0.01%;
+    padding-right: 45%;
+    padding-left:45%;
+
+}
+
+.flex-container > div {
+    width: 4%;
+    margin: 4%;
+    text-align: center;
+    padding-right: 3.5%;
+    padding-left: 4.8%;
+}
+
+
+.carousel-control {
+    background-size: 0 0;
+    color:white;
+}
+.glyphicon {
+    color:white;}   

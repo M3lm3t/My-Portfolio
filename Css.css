@@ -11,41 +11,46 @@
 body {
     background-color: #e6e6e6 !important;
 }
+
+#wholePage {
+    height: 60vw;
+    padding-right:7%;
+}
 #sideBar {
     background-color: #e6e6e6 !important;
     width: 6%;
     position: fixed !important;
     z-index: 1;
     overflow: auto;
-    padding-top: 15.2%;
-    padding-bottom: 50%;
-    padding-right: 0.1%;
- 
-}
-#wholePage {
-    height: 60vw;
-    
-}
+    padding-top: 16.7%;
+    padding-bottom: 40%;
+    padding-right: 0.2%;
+    padding-left: 0.3%;
+    border:none;
 
 
-button {
+
+}
+
+#sideBox {
     width: 100%;
-    background-color: #cccccc !important;
-    font-size: 130% !important;
-
-   
+    text-align: center !important;
+    background-color: #BBEDC1 !important;
+    font-size: 150% !important;
+    margin-bottom: 40%;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 
 .container22 {
     display: table;
     min-width: 100%;
-    min-height: 70%;
+    min-height: 85%;
 }
 
 .inner-container22 {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align:middle !important;
 }
 
 #nameTop {
@@ -63,6 +68,9 @@ button {
 a {
     text-decoration: none;
     color: black !important;
+
+
+    
 }
 
 
